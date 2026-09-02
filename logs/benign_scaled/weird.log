@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2026-09-02-18-36-32
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1788354392.059990	CzlmpuHm0oXl5H45h	10.10.10.2	59720	10.10.10.3	5201	truncated_tcp_payload	-	F	zeek	TCP
+1788354411.236095	CH4vKBtaEjvUKfU1a	10.10.10.2	37270	10.10.10.3	5202	truncated_tcp_payload	-	F	zeek	TCP
+1788354411.766408	CH4vKBtaEjvUKfU1a	10.10.10.2	37270	10.10.10.3	5202	TCP_seq_underflow_or_misorder	-	F	zeek	TCP
+1788354411.766418	CH4vKBtaEjvUKfU1a	10.10.10.2	37270	10.10.10.3	5202	TCP_ack_underflow_or_misorder	-	F	zeek	TCP
+1788354416.455941	C3qhF636zSnEyqOaY6	10.10.10.2	32796	10.10.10.3	5203	truncated_tcp_payload	-	F	zeek	TCP
+1788354430.414915	C0P42J3iHKCxNqZrJ9	10.10.10.2	43082	10.10.10.3	7000	truncated_tcp_payload	-	F	zeek	TCP
+#close	2026-09-02-18-38-27
