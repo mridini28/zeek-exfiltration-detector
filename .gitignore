@@ -6,3 +6,4 @@ logs/**/http.log
 logs/**/nc*.log
 logs/**/reporter.log
 logs/**/packet_filter.log
+real_data/*.csv
