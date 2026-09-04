@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2026-09-04-12-36-53
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1788505613.348780	C95iw7BiYEcy672kf	10.10.10.2	42500	10.10.10.3	5300	truncated_tcp_payload	-	F	zeek	TCP
+1788505613.859531	C95iw7BiYEcy672kf	10.10.10.2	42500	10.10.10.3	5300	TCP_seq_underflow_or_misorder	-	F	zeek	TCP
+1788505613.859535	C95iw7BiYEcy672kf	10.10.10.2	42500	10.10.10.3	5300	TCP_ack_underflow_or_misorder	-	F	zeek	TCP
+#close	2026-09-04-12-37-06
